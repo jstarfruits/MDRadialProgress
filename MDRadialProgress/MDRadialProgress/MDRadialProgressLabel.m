@@ -76,6 +76,9 @@
 	if (theme.dropLabelShadow) {
 		self.shadowColor = theme.labelShadowColor;
 		self.shadowOffset = theme.labelShadowOffset;
+	} else {
+		self.shadowColor = nil;
+		self.shadowOffset = CGSizeZero;
 	}
 }
 
